@@ -36,6 +36,7 @@ a, .text p {
 .hero {
     padding: 75px 50px;
     display: flex;
+    justify-content: center;
     gap: 50px;
     color: #f9faf8;
 
@@ -83,6 +84,7 @@ a, .text p {
 
 .images-container {
     display: flex;
+    justify-content: center;
     margin-bottom: 80px;
     padding: 0px 180px;
     gap: 24px;
