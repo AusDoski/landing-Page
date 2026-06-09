@@ -77,5 +77,34 @@ a, .text p {
     font-size: 8px;
 }
 
-/* First Section*/
+/* Second Section*/
 
+.information-header-text {
+    display: flex;
+    justify-content: center;
+    margin: 42px 0px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.images-container {
+    display: flex;
+    margin-bottom: 80px;
+    padding: 0px 180px;
+    gap: 24px;
+}
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.rounded-box {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
