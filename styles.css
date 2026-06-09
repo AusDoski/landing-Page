@@ -70,13 +70,6 @@ a, .text p {
     flex-shrink: 0;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    color: #f9faf8;
-    font-size: 8px;
-}
-
 /* Second Section*/
 
 .information-header-text {
@@ -151,6 +144,12 @@ a, .text p {
     font-size: 14px;
 }
 
+.CTA-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .CTA-text h2, .CTA-text h3 {
     color: #e5e7eb;
     margin: 0px;
@@ -170,4 +169,14 @@ a, .text p {
     align-items: center;
     justify-content: center;
     padding: 24px 12px;
+}
+
+/* Fotter Section*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 8px;
+    padding: 20px 0px;
 }
