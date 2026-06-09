@@ -128,3 +128,46 @@ a, .text p {
     text-align: right;
     margin: 0px;
 }
+
+/* Fourth Section*/
+
+.CTA {
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin:60px 80px;
+    padding: 24px 42px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.CTA-button button {
+    width: 90px;
+    height: 30px;
+    color: #e5e7eb;
+    background-color: transparent;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.CTA-text h2, .CTA-text h3 {
+    color: #e5e7eb;
+    margin: 0px;
+}
+
+.CTA-text h2 {
+    font-size: 24px;
+}
+
+.CTA-text h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.CTA-button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 12px;
+}
